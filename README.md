@@ -4,7 +4,7 @@ This repo contains implementations of trajectory optimization methods applied to
 |---|---|---|---|
 | iLQR / DDP | [`ilqr_ddp.py`](ilqr_ddp.py) | shooting / dynamic programming | JAX |
 | Direct collocation | [`dircol.py`](dircol.py) | direct transcription (Hermite–Simpson) | CasADi + IPOPT |
-| pontryagin maximum principle (indirect) | [`pmp.py`](pmp.py) | necessary conditions / indirect | JAX |
+| Pontryagin maximum principle (indirect) | [`pmp.py`](pmp.py) | necessary conditions / indirect | JAX |
 | Compare | [`compare.py`](compare.py) | runs all of them side by side | — |
 
 All four land on the same trajectory: 
