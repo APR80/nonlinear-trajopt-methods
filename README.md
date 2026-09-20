@@ -17,7 +17,7 @@ All four land on the same trajectory:
 Every method optimizes the *identical* objective — same `Q`, `R`, `Qn`, horizon, and a
 **soft-only** terminal cost (no hard terminal constraint) — which is what makes their
 costs directly comparable. Each solver's own reported cost is on its own discretization,
-and that is why the referee(referee (an independent
+and that is what the referee(an independent
 DOP853 re-integration at `rtol=1e-12`) is for.
 
 ## PMP: why is it so bad?
