@@ -10,6 +10,6 @@ This repo contains implementations of trajectory optimization methods applied to
 All four land on the same trajectory: 
 
 <img src="results/compare.png" alt="all four methods" width="600">
-<img width="400" height="400" alt="swingup" src="https://github.com/user-attachments/assets/00b90cda-bcf4-4bb0-9701-17bf0d2f5a3c" />
+                      <img width="400" height="400" alt="swingup" src="https://github.com/user-attachments/assets/00b90cda-bcf4-4bb0-9701-17bf0d2f5a3c" />
 
 
