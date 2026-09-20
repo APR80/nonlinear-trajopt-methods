@@ -23,7 +23,7 @@ DOP853 re-integration at `rtol=1e-12`) is for.
 ## PMP: why is it so bad?
 
 PMP is the slowest and by far the hardest for me to get converging, which was sad because that is 
-the method I learned in my optimal control course(kirk's book). here are the reasons I descovered:
+the method I learned in my optimal control course(kirk's book). here are the reasons:
 
 - **The reduced map `u → J` is brutally ill-conditioned** (condition number ~3.3e11), so
   plain gradient descent on the adjoint-sweep gradient stalls — even a good first-order
